@@ -16,14 +16,12 @@ function NavigationBar() {
                     </Nav.Link>
                     <Nav.Link as={NavLink} to="/add-customer" activeclassname="active">
                     Add Customer
-            {/* I may need to adjust the navlink to portion, my post method just goes to /customers */}
                     </Nav.Link>
                     <Nav.Link as={NavLink} to="/products" activeclassname="active">
                     Products
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/products" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/add-product" activeclassname="active">
                     Add Product
-            {/* I may need to adjust the navlink to portion, my post method just goes to /products */}
                     </Nav.Link>
                     <Nav.Link as={NavLink} to="/orders" activeclassname="active">
                     Place Order
