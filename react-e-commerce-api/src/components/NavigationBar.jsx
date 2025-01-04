@@ -7,25 +7,27 @@ function NavigationBar() {
             <Navbar.Brand href="/">E-Commerce App</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link as={NavLink} to="/" activeclassname="active">
+                <Nav className="mr-auto d-flex align-items-center">
+                    <Nav.Link as={NavLink} to="/" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Home
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/customers" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/customers" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Customers
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/add-customer" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/add-customer" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Add Customer
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/products" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/products" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Products
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/add-product" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/add-product" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Add Product
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/orders" activeclassname="active">
+                    <Nav.Link as={NavLink} to="/orders" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
+                    Orders
+                    </Nav.Link>
+                    <Nav.Link as={NavLink} to="/place-order" activeclassname="active" className="mx-2 px-3 py-2 rounded font-weight-bold">
                     Place Order
-            {/* I may need to adjust the navlink to portion, my post method just goes to /orders */}
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

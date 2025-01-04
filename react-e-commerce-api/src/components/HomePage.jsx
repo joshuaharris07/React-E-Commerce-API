@@ -5,7 +5,10 @@ function HomePage() {
     const navigate = useNavigate()
 
     return (
-        <div></div>
+        <div className="text-center">
+            <h1>Welcome to the E-Commerce API</h1>
+            <p>Use the navigation menu above to move through the application and manage customers, products, and orders.</p>
+        </div>
     )
 }
 
